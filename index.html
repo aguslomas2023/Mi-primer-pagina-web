@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Paganini accesorios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script>
+        function verificarEdad() {
+          var edad = prompt("Por favor, ingresa tu edad:");
+      
+          if (edad >= 18) {
+            alert("Bienvenido/a a nuestra página web.");
+          } else {
+            var confirmacion = confirm("Lo sentimos, esta página es para mayores de 18 años. ¿Deseas continuar bajo tu responsabilidad?");
+            
+            if (confirmacion) {
+              alert("Bienvenido/a a nuestra página web.");
+            } else {
+              window.location = "https://www.google.com"; // Redireccionar a otra página en caso de no ser mayor de edad
+            }
+          }
+        }
+      </script>
+
+      <div style="text-align: center;">
+        <button onclick="verificarEdad()">Ingresar</button>
+    </div>
+
+
+
+
+      
+
+    
+    </head>
+<body>
+    <div class="contenido-header">
+        <div class="fondo" id="fondo">
+            <h1 class="texto">Paganini accesorios</h1>
+    
+
+
+
+        </div>
+
+    </div>
+
+    <nav class="menu">
+        <a href="index.html">Nosotros</a>
+        <a href="Productos.html" >Productos</a>
+        <a href="Contacto.html" >Contacto</a>
+     </nav> 
+
+
+     <main class="container">
+        <div class="row nosotros justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="subtitulo"><span>¿Quienes somos?</span></h2>
+                <h3 class="titulo">Somos una tienda online de accesorios que se incorporo recientemente al mercado, nuestro principal objetivo es brindarles a los clientes la mejor calidad, variedad en tendencia.</h3>
+                <p>
+                    Contamos con un equipo de trabajo muy comprometido en las necesidades de cada pedido que hacen los clientes. Brindamos una atención adecuada y atenta lo cual nos permite seguir creciendo como empresa.
+                </p>
+                <a href="Productos.html" class="">descubre tu proximo accesorio</a>
+
+            </div>
+
+        </div>
+
+        <div class="row Productos">
+            <article class="col-12 text-center">
+                <h2 class="subtitulo"><span>Lo que ofrecemos</span></h2>
+                <p class="titulo">Nuestros productos</p>
+                <p>Contamos con una gran variedad de productos tales como, aros, collares, pulseras, anillos, relojes, entre otros.</p>
+
+            </article>
+
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <article class="col-6 col-lg-3 py-1">
+                        <figure class="producto">
+                            <img src="img/combotopacio.jpg" class="img-fluid" alt="">
+                            <figcaption class="overlay">
+                                <p class="overlay-texto">anillos de oro 18k</p>
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <article class="col-6 col-lg-3 py-1">
+                        <figure class="producto">
+                            <img src="img/pulseradijeinfinito.jpg" class="img-fluid" alt="">
+                            <figcaption class="overlay">
+                                <p class="overlay-texto">pulsera de plata con dije infinito</p>
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <article class="col-6 col-lg-3 py-1">
+                        <figure class="producto">
+                            <img src="img/aros.jpg" class="img-fluid" alt="">
+                            <figcaption class="overlay">
+                                <p class="overlay-texto">aros de acero quirurgico inoxidable</p>
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <article class="col-6 col-lg-3 py-1">
+                        <figure class="producto">
+                            <img src="img/corazonconbrillantes.jpg" class="img-fluid" alt="">
+                            <figcaption class="overlay">
+                                <p class="overlay-texto">cadena de corazon con brillantes</p>
+
+                            </figcaption>
+
+                        </figure>
+
+                    </article>
+
+                    <a href="file:///C:/Users/patri/OneDrive/Escritorio/borrador%20de%20proyecto/Productos.html">
+                        <button class="d'block btn-productos" >Todos los productos</button>
+                    </a>
+
+                    
+
+                </div>
+            </div>
+
+        </div>
+
+     </main>
+   
+
+    <h1></h1>
+   
+   
+    <header>
+
+    </header>
+
+    <div class="separador text-center text width">
+        <p><q>Lo mejor en alta calidad</q></p>
+
+    </div>
+
+    <div id="video">
+        <video width="420" height="440" controls>
+
+            <source src="video/video5154732625247601190.mp4" type="video/mp4">
+    
+        </video>
+    
+    </div>
+
+    
+    
+    
+    <div class="container-fluid">
+        <section class="contacto row justify-content-center">
+            <div class="col-12 col-md-9 text-center">
+                <h2 class="subtitulo"><span>Contactanos</span></h2>
+            </div>
+        </section>
+
+        <footer class="row justify-content-center redes-sociales">
+			<div class="col-auto">
+				<a href="Contacto.html"><img src="img/iconofacebook.jpg" alt=""></a>
+				<a href="Contacto.html"><img src="img/iconodewhatsapp.jpg" alt=""></a>
+				<a href="Contacto.html"><img src="img/iconodeinstagram.jpg" alt=""></a>
+                <a href="Contacto.html"><img src="img/iconodegmail.jpg" alt=""></a>
+			</div>
+		</footer>
+
+    </div>
+
+
+    <script src="script.js/bootstrap.min.js"></script>
+</body>
+</html>
